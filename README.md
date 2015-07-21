@@ -91,9 +91,9 @@ Moving to the next stage - the first development sprint will depend on the resul
 
 ## User Stories for Development
 
-This must be kept clean and there must be a process in place for writing stories. 
+This must be kept clean and there must be a process in place for writing stories. [Our process for adding stories.](./story-writing.md)
 
-Increment the numbers as they go into the PM tool. 
+Ideally Increment the numbers as they go into the PM tool, however, Pivotal Tracker doesn't provide for this :(
 
 The developers and the Product Owner need to be involved in writing the user stories. This will hopefully take the form of a full day workshop. 
 

@@ -123,6 +123,8 @@ SO THAT to achieve a goal
 - User Tests are Passing
 - Sign-off
 
+[More information on writing user stories (GOV.UK)](https://www.gov.uk/service-manual/agile/writing-user-stories.html)
+
 ## Testing and refining the Solution
 
 *There is always room for improvement.*

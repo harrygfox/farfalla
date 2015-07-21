@@ -2,10 +2,11 @@
 
 A startup near you is undergoing a digital *transformation*. The UX-focused redesign of their web services is documented here and will be updated over time. 
 
-Here is a break down of the **design process** for recreating a digital experience.
+This is a break down of the **design process** for recreating a digital experience. This repository is for internal use for members of the team to see the steps involved and see where they want to be involved. 
 
 ### Contents
 
+1. [Introduction](#introduction)
 1. [Start with the Users](#start-with-the-users)
 2. [What does the business want?](#what-does-the-business-want)
 3. [User Journeys and Solution Architecture](#user-journey-and-solution-architecture)
@@ -14,11 +15,11 @@ Here is a break down of the **design process** for recreating a digital experien
 6. [User Stories for Development](#user-stories-for-development)
 7. [Perfect - Testing and refining the Solution](#testing-and-refining-the-solution)
 
-### Introduction
+## Introduction
 
 ![Metamorphosis][morph]
 
-> Web design is dead. Long live experience design.
+> ### Web design is dead. Long live experience design.
 
 A user experience is the user's perception of a company across *one moment* of contact **and** *all moments* of contact. This project has the aim of designing the holistic experience of the users of a vocational learning platform.
 
@@ -45,7 +46,7 @@ Users distinct concerns are met with a personalised value proposition which is a
 
 User personas will define each user's broad wants and goals considering their wellbeing (*economic, financial and mental....*)
 
-> Example User Persona
+#### Example User Persona
 
 ![User Persona][persona]
 
@@ -68,7 +69,9 @@ To visualise the logical result of the materials that have been created so far, 
 - Site map based on the most logical progression from entry to goal - user journey.
 - Process Flow the details of the user journey: decision making and conditionals.
 
-If the progression through the user journey is logical, fits the behavioural requirements set out by the personas, and offers something that might be considered a positive and un-anxious experience then the interface is ready to be designed and prototyped (if the client says yes you can do those things). 
+If the progression through the user journey is logical, fits the behavioural requirements set out by the personas, and offers something that might be considered a positive and un-anxious experience then the interface is ready to be designed and prototyped.
+
+Moving from here to the next step 
 
 ## Wire-frames + Copy
 
@@ -80,47 +83,55 @@ Eventually this process of refinement will leave us with an ideal solution to th
 
 ## Prototype
 
-I will build a prototype using a static site generator to be determined closer to the time. Pages will be built in HTML CSS and JS (to mimic end to end functionality). This will be presented for testing with a *User Group* who will provide feedback on their experiences. _The scripts for testing the prototype will be written at the time._
+I will build a prototype using a static site generator to be determined closer to the time. Pages will be built in HTML CSS and JS (to mimic end to end functionality). This will be presented for testing with a *User Group* who will provide feedback on their experiences. _The scripts for testing the prototype will be written at the time._ For more on User-testing [see here](./user-testing.md).
 
 Creating a prototype in the languages that will actually be used in the development process will streamline the development cycle and plays to my strengths. 
 
 Moving to the next stage - the first development sprint will depend on the results of the user tests and require final sign-off from the Product Owner. 
 
 ## User Stories for Development
+
 This must be kept clean and there must be a process in place for writing stories. 
+
 Increment the numbers as they go into the PM tool. 
-Who needs to be involved in writing the stories?
+
+The developers and the Product Owner need to be involved in writing the user stories. This will hopefully take the form of a full day workshop. 
 
 ### Start with the Epics
+
 As a user I want to do this broad thing e.g.
 As a potential learner I want to take a course about engineering 
 
-As far as the user stories are concerned: this means that you can avoid things like "AS A user I WANT TO get better at French SO THAT I can live in France". Sure, that's a story about the user and reflects their wants and needs but it is not do-able. Here, the definition of done is impossible to measure. 
+As far as the user stories are concerned, this means that you can avoid things like: 
+
+> "AS A user I WANT TO get better at French SO THAT I can live in France"
+
+Sure, that's a story about the user and reflects their wants and needs but it is not do-able. Here, the definition of done is impossible to measure. 
 
 ### Break down Epics
 By limiting the user's wants and goals to the needs of the business - force the user to accept that this is the way it has to be - stories can become more granular, testable, and the definition of done is more binary. 
 
+```
 AS A user
 I WANT TO do a thing
 SO THAT to achieve a goal
+```
 
 ### Add Acceptance Criteria
-Automated tests are passing
-User Tests are Passing
-Who signs off? (Product Owner)
+
+- Automated code tests are passing
+- User Tests are Passing
+- Sign-off
 
 ## Testing and refining the Solution
-Problems: There is always room for improvement /  Were the problems defined actually solved?
-Remember - don't get precious with your designs and concepts they're not for you they're for the users. 
 
-Designing and testing should be done iteratively in a cycle with constant reference and referral to the personas and data. Moreover, user testing should be done at the earliest possible moment the wireframes are finished. 
+*There is always room for improvement.*
 
-USER GROUP
-1 to 2 weekly tests with that group doing various testing exercises to evaluate the UX.
-Collate those test results 
-Re-evaluate the problems and cycle through the process over and over. 
+Were the problems defined actually solved?
 
-You're testing to make sure that the interface reflection of your solution model meets the users expectations - the right stuff in the right place at the right time. 
+Are the users happy?
+
+_To allow the UX to continue to improve over time, feedback must be collected from the users as they use the platform and regular test groups should be arranged._
 
 [morph]: img/Metamorphosis.jpg "Metamorphosis"
 [persona]: img/persona.jpg "User Persona"
